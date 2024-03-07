@@ -35,8 +35,8 @@ pipeline {
 
         // This stage is named "Deploy". It has one step that prints the message "deploy" to the console.
         stage('Deploy') {
-            steps {
-                echo 'deploy'
+            teps {
+                echo 'deplo'
             }
         }
     }
